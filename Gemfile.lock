@@ -1,0 +1,46 @@
+GIT
+  remote: git://github.com/pjanuario/zmq-service-suite-ruby.git
+  revision: 0f92bd3c11dce7463cf6aef389c0f5a8ed9d9f88
+  specs:
+    zss (0.0.3)
+      activesupport
+      daemons
+      em-zeromq
+      ffi-rzmq
+      hashie
+      msgpack
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.1.4)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    daemons (1.1.9)
+    em-zeromq (0.5.0)
+      eventmachine (>= 1.0.0)
+      ffi (>= 1.0.0)
+      ffi-rzmq (~> 2.0.1)
+    eventmachine (1.0.3)
+    ffi (1.9.3)
+    ffi-rzmq (2.0.1)
+      ffi-rzmq-core (>= 1.0.1)
+    ffi-rzmq-core (1.0.3)
+      ffi (~> 1.9)
+    hashie (3.2.0)
+    i18n (0.6.11)
+    json (1.8.1)
+    minitest (5.4.0)
+    msgpack (0.5.8)
+    thread_safe (0.3.4)
+    tzinfo (1.2.1)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  zss!
