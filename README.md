@@ -1,10 +1,12 @@
-zss-service-sample
-==================
+# ZSS Client & Service Sample
 
-This is a Service Sample using ZMQ Service Suite
+This is a Client & Service Sample using ZMQ Service Suite.
 
-
-# Download Broker and run
+# Broker download and run
+    $ bin/zss-broker run
 
 # Run service
     $ bin/pong run
+
+# Run client
+    $ bin/client
