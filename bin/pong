@@ -9,4 +9,5 @@ $env     = ENV['ZSS_ENV'] || 'development'
 require 'zss/runner'
 require_relative '../lib/start'
 
+# Runner receives the identifier used for pid and log filename
 ZSS::Runner.run(:pong)
